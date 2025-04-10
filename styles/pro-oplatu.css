@@ -1,0 +1,20 @@
+main {
+    margin-top: 11vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+article {
+    width: 83vw;
+}
+
+h1 {
+    margin-bottom: 3vw;
+}
+
+p {
+    font-size: 0.9vw;
+    line-height: 1.8vw;
+}

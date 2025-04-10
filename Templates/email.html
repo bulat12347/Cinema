@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="rus">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/general.css">
+    <link rel="stylesheet" href="styles/email.css">
+    <title>Контакты</title>
+  </head>
+  <body>
+    <header>
+      <a class="logo" href="index.html"><img src="images/logo.svg" alt="logo"></a>
+      <p class="moscow">Москва<br>МФК Кунцево Плаза</p>
+      <nav>
+        <a href="/">МОРИ АРТ</a>
+        <a href="/">БОНУСНАЯ КАРТА</a>
+        <a href="/">АРЕНДА ЗАЛА</a>
+        <a href="/">АКЦИИ</a>
+        <a href="/">НОВОСТИ</a>
+      </nav>
+    </header>
+    
+    <main>
+      <article>
+      </article>
+      <aside>
+        <div class="form">
+          <label for="email">Email для получения кода бронирования:</label>
+          <input id="email" type="email" placeholder="Укажите ваш E-mail" required>
+          <label for="phone">Номер телефона:</label>
+          <input id="phone" type="tel" placeholder="+7(___)___-__-__" required>
+          <div class="checkboxes">
+            <input id="dogovor" type="checkbox" checked>
+            <label class="dogovor-label" for="dogovor">Я согласен(а) с условиями <a href="pro-oplatu.html">договора оферты</a></label>
+          </div>
+          <p>На указанный E-mail Вы получите сообщение с кодом бронирования.</p>
+          <p>Не забудьте авторизоваться в личном кабинете до совершения оплаты для начисления баллов программы лояльности и отображения данной покупки в личном кабинете. Скидка учащимся предоставляется только при предъявлении на входе в зал документа, подтверждающего статус школьника или студента очного отделения.</p>
+        </div>
+        <div class="final-info">
+          <h3>Ваш заказ</h3>
+          <h4>Билеты</h4>
+          <div class="info-flex1">
+          </div>
+          <div class="info-flex2">
+            <span>Итого:</span>
+            <span class="total-price"></span>
+          </div>
+          <a class="oplataA"><button class="oplata">ОПЛАТИТЬ</button></a>
+        </div>
+      </aside>
+    </main>
+    
+    <footer>
+        <img src="images/logo.svg" alt="logo">
+        <a href="/">Политика конфиденциальности</a>
+        <div class="contacts">
+          <a href="https://vk.com/moricinema.official"><img src="images/vk.png" alt="vk" style="padding: 0.8vw 0.5vw"></a>
+          <a href="https://t.me/s/moricinema"><img src="images/tg.png" alt="telegram" style="padding: 0.7vw"></a>
+        </div>
+      </footer>
+    
+    <script type="module" src="scripts/email.js"></script>
+  </body>
+</html>

@@ -1,0 +1,109 @@
+main {
+    margin-top: 11vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+article {
+    width: 81vw;
+}
+
+.film {
+    display: flex;
+    column-gap: 2vw;
+    margin-bottom: 2vw;
+}
+
+.film>img {
+    width: 19vw;
+    border-radius: 0.5vw;
+}
+
+.age {
+    display: inline-block;
+    border: 1px solid black;
+    padding: 0.3vw 0.5vw;
+    border-radius: 0.5vw;
+    font-size: 0.6vw;
+    margin-bottom: 2vw;
+}
+
+.film-info h2 {
+    font-size: 2vw;
+    margin-bottom: 2vw;
+}
+
+.info {
+    font-size: 0.7vw;
+    font-weight: 400;
+    margin-bottom: 2vw;
+}
+
+.film-info button {
+    position: relative;
+    width: 11.5vw;
+    height: 3.2vw;
+    border: none;
+    border-radius: 0.3vw;
+    font-size: 0.8vw;
+    font-weight: 700;
+    background: linear-gradient(135deg,#fbca47,#fbca47 50%,#f49f24);
+    background-position: 100% 100%;
+    background-size: 200% 100%;
+    margin-bottom: 2vw;
+    cursor: pointer;
+    transition: background-position 0.2s;
+}
+
+.film-info button:hover {
+    background-position: 0 0;
+}
+
+.film-info button:before,
+.film-info button:after{
+    position: absolute;
+    top: 1.15vw;
+    content: "";
+    height: 0.7vw;
+    width: 0.7vw;
+    background-color: white;
+    display: block;
+    z-index: 1;
+    border-radius: 50%;
+}
+
+.film-info button:before {
+    left: -0.35vw;
+}
+
+.film-info button:after {
+    right: -0.35vw;
+}
+
+.film-info div {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2vw;
+}
+
+.film-info div h4 {
+    font-size: 0.8vw;
+    flex: 1;
+}
+
+.film-info div p {
+    font-size: 0.8vw;
+    flex: 2;
+    font-weight: 400;
+}
+
+article>h4 {
+    font-size: 0.8vw;
+    margin-bottom: 2vw;
+}
+
+article>p {
+    font-size: 0.8vw;
+    font-weight: 400;
+}
